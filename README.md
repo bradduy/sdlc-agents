@@ -6,9 +6,7 @@ The first packaged workflow is Jira issue management: find assigned work, search
 
 ## Installation
 
-Install the plugin from the current repository: [bradduy/sdlc-agents](https://github.com/bradduy/sdlc-agents).
-
-Use the Codex marketplace tooling:
+Install the plugin with the Codex marketplace tooling:
 
 ```bash
 npx codex-marketplace add bradduy/sdlc-agents --plugins
@@ -38,11 +36,7 @@ On first use, Atlassian opens an OAuth flow. Sign in with the Atlassian account 
 
 For environments where MCP is unavailable, the Jira skill documents a REST fallback. Export these variables before starting Codex:
 
-Create an Atlassian API token at:
-
-```text
-https://id.atlassian.com/manage-profile/security/api-tokens
-```
+Create an Atlassian API token from [Atlassian API tokens](https://id.atlassian.com/manage-profile/security/api-tokens).
 
 ```bash
 export ATLASSIAN_EMAIL="your.email@company.com"

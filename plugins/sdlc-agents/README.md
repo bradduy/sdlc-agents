@@ -25,11 +25,7 @@ This plugin packages Jira workflows for Codex.
 
 Set these before launching Codex if you need API-token fallback:
 
-Create an Atlassian API token at:
-
-```text
-https://id.atlassian.com/manage-profile/security/api-tokens
-```
+Create an Atlassian API token from [Atlassian API tokens](https://id.atlassian.com/manage-profile/security/api-tokens).
 
 ```bash
 export ATLASSIAN_EMAIL="your.email@company.com"

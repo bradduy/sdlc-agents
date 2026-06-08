@@ -25,10 +25,6 @@ export ATLASSIAN_API_TOKEN="your_api_token_here"
 export ATLASSIAN_INSTANCE="yourcompany.atlassian.net"
 ```
 
-Create API tokens at:
-
-```text
-https://id.atlassian.com/manage-profile/security/api-tokens
-```
+Create API tokens from [Atlassian API tokens](https://id.atlassian.com/manage-profile/security/api-tokens).
 
 Restart Codex after exporting variables so subprocesses inherit them.
