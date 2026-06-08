@@ -36,6 +36,12 @@ On first use, Atlassian opens an OAuth flow. Sign in with the Atlassian account 
 
 For environments where MCP is unavailable, the Jira skill documents a REST fallback. Export these variables before starting Codex:
 
+Create an Atlassian API token at:
+
+```text
+https://id.atlassian.com/manage-profile/security/api-tokens
+```
+
 ```bash
 export ATLASSIAN_EMAIL="your.email@company.com"
 export ATLASSIAN_API_TOKEN="your_api_token_here"
