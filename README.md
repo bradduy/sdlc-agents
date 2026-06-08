@@ -1,6 +1,6 @@
 # SDLC Agents
 
-SDLC Agents is a Codex plugin that connects Codex to Jira Cloud and Confluence Cloud through Atlassian's official remote MCP server.
+SDLC Agents is a Codex plugin harness for Jira and Confluence workflows through Atlassian MCP.
 
 The packaged workflows cover Jira issue management and Confluence documentation: find assigned work, search with JQL, read issue context, create issues, add comments, transition work, inspect boards or sprints, search pages, create pages, update documentation, and sync Markdown content.
 
