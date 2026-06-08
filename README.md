@@ -4,13 +4,19 @@ SDLC Agents is a Codex plugin that connects Codex to Jira Cloud through Atlassia
 
 The first packaged workflow is Jira issue management: find assigned work, search with JQL, read issue context, create issues, add comments, transition work, and inspect boards or sprints.
 
-## Install
+## Installation
 
 Install the plugin from this repository with the Codex marketplace tooling:
 
 ```bash
 npx codex-marketplace add bradduy/sdlc-agents --plugins
 ```
+
+After installation, start or reload Codex so it can discover the new plugin.
+
+When SDLC Agents starts the Atlassian MCP connection for the first time, an Atlassian website authorization page will open. Sign in, review the requested access, and accept the authorization for the Jira site you want Codex to use.
+
+After accepting Atlassian authorization, reload Codex again so the plugin and MCP tools are loaded successfully in the active session.
 
 The repo also includes a Codex marketplace manifest at:
 
@@ -48,10 +54,6 @@ Move ONAP-1209 to In Progress after confirming the available transition.
 Add a QA result comment to ONAP-1209 with the test outcome and evidence.
 ```
 
-## Contributors
-
-- Duy Tran Thanh - Applied AI Leader, Senior AI Engineer at OneMount Group
-
 ## Repository Layout
 
 ```text
@@ -61,3 +63,7 @@ plugins/sdlc-agents/.mcp.json
 plugins/sdlc-agents/skills/jira/SKILL.md
 plugins/sdlc-agents/skills/jira/references/
 ```
+
+## 🙋🏻‍♂️ Contributing
+
+- Duy Tran Thanh - Applied AI Leader, Senior AI Engineer at OneMount Group
