@@ -46,20 +46,18 @@ export ATLASSIAN_INSTANCE="yourcompany.atlassian.net"
 
 ## Example Prompts
 
+### Jira
+
 ```text
 Show my latest Jira task with status, priority, parent, and updated time.
 List my open Jira issues in the current sprint, grouped by status.
-Find unresolved ONAP bugs assigned to me and sort them by priority.
-Summarize ONAP-1209, including acceptance criteria, comments, and blockers.
-Create a Jira task in ONAP for the release readiness checklist.
-Move ONAP-1209 to In Progress after confirming the available transition.
-Add a QA result comment to ONAP-1209 with the test outcome and evidence.
+```
+
+### Confluence
+
+```text
 Search Confluence for release readiness docs in the ONAP space.
 Summarize this Confluence page and identify outdated sections.
-Create a Confluence page for sprint planning notes in the ONAP space.
-Update the risk section of a Confluence page after showing me the diff.
-Append today's deployment notes to the release runbook.
-Sync this local Markdown spec to Confluence and link it to ONAP-1209.
 ```
 
 ## Repository Layout
