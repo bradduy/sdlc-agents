@@ -74,4 +74,4 @@ plugins/sdlc-agents/skills/confluence/references/
 
 ## 🙋🏻‍♂️ Contributing
 
-- Duy Tran Thanh - Applied AI Leader, Senior AI Engineer at OneMount Group
+- Duy Tran Thanh - Applied AI Leader, Senior AI Engineer
