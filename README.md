@@ -1,8 +1,8 @@
 # SDLC Agents
 
-SDLC Agents is a Codex plugin that connects Codex to Jira Cloud through Atlassian's official remote MCP server.
+SDLC Agents is a Codex plugin that connects Codex to Jira Cloud and Confluence Cloud through Atlassian's official remote MCP server.
 
-The first packaged workflow is Jira issue management: find assigned work, search with JQL, read issue context, create issues, add comments, transition work, and inspect boards or sprints.
+The packaged workflows cover Jira issue management and Confluence documentation: find assigned work, search with JQL, read issue context, create issues, add comments, transition work, inspect boards or sprints, search pages, create pages, update documentation, and sync Markdown content.
 
 ## Installation
 
@@ -32,9 +32,9 @@ The plugin starts Atlassian MCP through `mcp-remote`:
 npx -y mcp-remote@latest https://mcp.atlassian.com/v1/mcp/authv2
 ```
 
-On first use, Atlassian opens an OAuth flow. Sign in with the Atlassian account that has access to your Jira site.
+On first use, Atlassian opens an OAuth flow. Sign in with the Atlassian account that has access to your Jira and Confluence sites.
 
-For environments where MCP is unavailable, the Jira skill documents a REST fallback. Export these variables before starting Codex:
+For environments where MCP is unavailable, the Jira and Confluence skills document REST fallbacks. Export these variables before starting Codex:
 
 Create an Atlassian API token from [Atlassian API tokens](https://id.atlassian.com/manage-profile/security/api-tokens).
 
@@ -54,6 +54,12 @@ Summarize ONAP-1209, including acceptance criteria, comments, and blockers.
 Create a Jira task in ONAP for the release readiness checklist.
 Move ONAP-1209 to In Progress after confirming the available transition.
 Add a QA result comment to ONAP-1209 with the test outcome and evidence.
+Search Confluence for release readiness docs in the ONAP space.
+Summarize this Confluence page and identify outdated sections.
+Create a Confluence page for sprint planning notes in the ONAP space.
+Update the risk section of a Confluence page after showing me the diff.
+Append today's deployment notes to the release runbook.
+Sync this local Markdown spec to Confluence and link it to ONAP-1209.
 ```
 
 ## Repository Layout
@@ -63,7 +69,9 @@ Add a QA result comment to ONAP-1209 with the test outcome and evidence.
 plugins/sdlc-agents/.codex-plugin/plugin.json
 plugins/sdlc-agents/.mcp.json
 plugins/sdlc-agents/skills/jira/SKILL.md
+plugins/sdlc-agents/skills/confluence/SKILL.md
 plugins/sdlc-agents/skills/jira/references/
+plugins/sdlc-agents/skills/confluence/references/
 ```
 
 ## 🙋🏻‍♂️ Contributing

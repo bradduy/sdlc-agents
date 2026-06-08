@@ -1,7 +1,7 @@
 {
   "name": "sdlc-agents",
   "version": "0.1.0",
-  "description": "Codex plugin for SDLC workflows with Jira integration through Atlassian MCP.",
+  "description": "Codex plugin for SDLC workflows with Jira and Confluence integration through Atlassian MCP.",
   "author": {
     "name": "Brad Duy"
   },
@@ -10,6 +10,7 @@
   "license": "MIT",
   "keywords": [
     "jira",
+    "confluence",
     "atlassian",
     "mcp",
     "sdlc",
@@ -20,8 +21,8 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "SDLC Agents",
-    "shortDescription": "Plan, track, and update Jira work from Codex.",
-    "longDescription": "SDLC Agents connects Codex to Jira Cloud through Atlassian's official remote MCP server, with guided workflows for assigned work, JQL search, issue creation, comments, transitions, boards, and sprints. It also documents a REST fallback for API-token environments.",
+    "shortDescription": "Plan, track, and document SDLC work from Codex.",
+    "longDescription": "SDLC Agents connects Codex to Jira Cloud and Confluence Cloud through Atlassian's official remote MCP server, with guided workflows for assigned work, JQL search, issue creation, comments, transitions, boards, sprints, page search, page creation, document updates, and Markdown-to-Confluence sync. It also documents REST fallbacks for API-token environments.",
     "developerName": "Brad Duy",
     "category": "Development",
     "capabilities": [
@@ -29,7 +30,7 @@
       "Write",
       "Interactive"
     ],
-    "defaultPrompt": "Use SDLC Agents to show my latest Jira task.",
+    "defaultPrompt": "Use SDLC Agents to show my latest Jira task and related Confluence context.",
     "brandColor": "#0052CC",
     "composerIcon": "./assets/icon.svg",
     "logo": "./assets/logo.svg",
