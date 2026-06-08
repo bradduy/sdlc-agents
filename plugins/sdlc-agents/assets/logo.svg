@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 96" role="img" aria-labelledby="title">
+  <title>SDLC Agents logo</title>
+  <rect width="96" height="96" rx="20" fill="#0052CC"/>
+  <path d="M26 25h44v12H26zM26 44h32v12H26zM26 64h44v6H26z" fill="#FFFFFF"/>
+  <circle cx="72" cy="52" r="14" fill="#36B37E"/>
+  <path d="M66 52l5 5 10-12" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="116" y="43" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#172B4D">SDLC Agents</text>
+  <text x="116" y="69" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#42526E">Jira workflows for Codex</text>
+</svg>

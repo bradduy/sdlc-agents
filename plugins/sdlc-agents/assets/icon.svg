@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title>SDLC Agents icon</title>
+  <rect width="64" height="64" rx="14" fill="#0052CC"/>
+  <path d="M18 18h28v8H18zM18 30h20v8H18zM18 42h28v4H18z" fill="#FFFFFF"/>
+  <circle cx="47" cy="34" r="9" fill="#36B37E"/>
+  <path d="M43 34l3 3 6-7" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
