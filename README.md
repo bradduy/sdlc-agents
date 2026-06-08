@@ -39,13 +39,18 @@ export ATLASSIAN_INSTANCE="yourcompany.atlassian.net"
 ## Example Prompts
 
 ```text
-Use SDLC Agents to show my latest Jira task.
-Show my open Jira issues in the current sprint.
-Find open bugs in ONAP assigned to me.
-Create a Jira task in ONAP for the deployment checklist.
-Move ONAP-1209 to In Progress.
-Add a comment to ONAP-1209 with the QA result.
+Show my latest Jira task with status, priority, parent, and updated time.
+List my open Jira issues in the current sprint, grouped by status.
+Find unresolved ONAP bugs assigned to me and sort them by priority.
+Summarize ONAP-1209, including acceptance criteria, comments, and blockers.
+Create a Jira task in ONAP for the release readiness checklist.
+Move ONAP-1209 to In Progress after confirming the available transition.
+Add a QA result comment to ONAP-1209 with the test outcome and evidence.
 ```
+
+## Contributors
+
+- Duy Tran Thanh - Applied AI Leader, Senior AI Engineer at OneMount Group
 
 ## Repository Layout
 
