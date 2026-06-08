@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="plugins/sdlc-agents/assets/sdlc_agent_banner.png" alt="SDLC Agents installer banner" width="100%">
+</p>
+
 # SDLC Agents
 
 SDLC Agents is a Codex plugin harness for Jira and Confluence workflows through Atlassian MCP.
