@@ -6,7 +6,9 @@ The first packaged workflow is Jira issue management: find assigned work, search
 
 ## Installation
 
-Install the plugin from this repository with the Codex marketplace tooling:
+Install the plugin from the current repository: [bradduy/sdlc-agents](https://github.com/bradduy/sdlc-agents).
+
+Use the Codex marketplace tooling:
 
 ```bash
 npx codex-marketplace add bradduy/sdlc-agents --plugins
